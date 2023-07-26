@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div id="main">
+        <h1><strong>Formulário</strong></h1>
+        <form action="arquivo.php" method="get">
+
+            <div id="entrada">
+                <label for="inome">Nome: </label>
+                <input type="text" name="Nome" id="inome" class="entrada">
+            </div>
+            <br>
+            <div id="entrada">
+                <label for="iIdade">Idade: </label>
+                <input type="number" name="Idade" id="iIdade" class="entrada">
+            </div>
+            <br>
+            <h3>Gênero: </h3>
+            <input type="radio" name="sexo" id="masculino"><label for="masculino">Masculino </label> <br>
+            <input type="radio" name="sexo" id="feminino"><label for="feminino">Feminino </label> 
+            <br>
+            <div id="entrada">
+                <label for="iestado">Estado: </label>
+                <input type="text" name="estado" id="iestado" class="entrada">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
